@@ -95,10 +95,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 IMPORT CSVs INTO TABLES:
-
-
-<img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/e12d3a18-785a-488c-816a-65f2c51a86e8" />
-
+<img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/32791b60-c92d-4fd0-9d1f-1b8c90e5998a" />
 
 ## 📊 Running the Analysis (Python)
 
