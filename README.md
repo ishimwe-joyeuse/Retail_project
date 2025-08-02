@@ -117,7 +117,7 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
    - Perform clustering
    - Export cleaned files for Power BI
 
-```
+
 
 
 
@@ -138,7 +138,7 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
     3.1<img width="1361" height="718" alt="screenshoot3" src="https://github.com/user-attachments/assets/de74b967-afe2-4bd0-bd77-4c798d77c193" />
     3.2<img width="1349" height="713" alt="screenshoot3 1" src="https://github.com/user-attachments/assets/43f074d2-45eb-4feb-b29e-ba1b4f049bfd" />
     3.3<img width="1343" height="696" alt="screenshoot3 2" src="https://github.com/user-attachments/assets/db91f13b-9a20-4838-89eb-9c0fbc0131ac" />
-```
+
 
 ## ✅ Final Submission Checklist
 
