@@ -1,42 +1,48 @@
-# VENDORS PERFORMANCE ANALYSIS PROJECT
-  Sectors: RETAIL
-
-## 📌 Project Overview
-This project aims to evaluate vendor performance based on key procurement metrics such as delivery quality, order quantity, and return rates etc. A clustering model is used to categorize vendors and the final results are visualized in Power BI.
-
-      PROBLEM STATEMENT
-      The project aims to identify and address inefficiencies in vendor performance using data analysis to support better decision-making
-
-
-   SIMPLE STRUCTURE OF WHOLE PROJECT
-
-<img width="1246" height="806" alt="image" src="https://github.com/user-attachments/assets/8f391451-ece3-485b-bd47-6a3707c2541f" />
-
-## 🧰 Tools & Technologies
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- **MySQL** (Data storage/XAMPP)
-- **Power BI** (Dashboard visualization)
-- **Jupyter Notebook via VSCode**
-- **GitHub** (Project hosting & submission)
+# 🧠 VENDOR PERFORMANCE ANALYSIS PROJECT  
+**Sector:** Retail  
 
 ---
 
-## 🗃️ Database Schema & SQL Tables
+## 📌 Project Overview  
+This project evaluates vendor performance based on key procurement metrics such as delivery quality, order quantity, and return rates. A clustering model is used to categorize vendors, and final insights are visualized in Power BI dashboards.
 
-      DATABASE CREATION IN XAMPP
+---
 
-<img width="1360" height="669" alt="database" src="https://github.com/user-attachments/assets/5f4723a3-31f8-4962-86f4-fa88ed1d07a8" />
+## ❗ Problem Statement  
+The project aims to identify and address inefficiencies in vendor performance using data analysis to support better decision-making.
 
-      TABLE CREATION UNDER DATABASE
+---
 
-### 1. `vendors` Table
-```
+## 🔄 Project Workflow  
+![Project Workflow](https://user-images.githubusercontent.com/your_workflow_image_link_here.png)
+
+---
+
+## 🧰 Tools & Technologies  
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)  
+- **MySQL** (Data storage via XAMPP)  
+- **Power BI** (Dashboard visualization)  
+- **Jupyter Notebook (VSCode)**  
+- **GitHub** (Project hosting & submission)  
+
+---
+
+## 🗃️ Database Schema & SQL Tables  
+
+### ✅ Database Creation in XAMPP  
+![Database Screenshot](https://user-images.githubusercontent.com/your_database_image_link_here.png)
+
+### 📋 Table Definitions  
+
+#### 1. `vendors` Table  
+```sql
 CREATE TABLE vendors (
     vendor_id INT PRIMARY KEY,
     name VARCHAR(100),
     category VARCHAR(50),
     country VARCHAR(50)
 );
+
 ```
 
 ### 2. `orders` Table
@@ -70,9 +76,7 @@ CREATE TABLE returns (
     order_id INT,
     return_reason TEXT,
     return_date DATE,
-    FOREIGN KEY (order_id) REFERENCES orders(order_id)
-<img width="1360" height="669" alt="database" src="https://github.com/user-attachments/assets/5f4723a3-31f8-4962-86f4-fa88ed1d07a8" />
-<img width="1342" height="669" alt="tables" src="https://github.com/user-attachments/assets/d9ff387c-2045-4528-8f35-6b4c598f9327" />
+    FOREIGN KEY (order_id) REFERENCES orders(order_id);
 
 
 ## 💾 Import CSVs into MySQL
