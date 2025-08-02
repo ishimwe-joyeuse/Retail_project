@@ -35,44 +35,40 @@ The project aims to identify and address inefficiencies in vendor performance us
 
 📃 Database Schema
 
+```sql
 CREATE TABLE vendors (
-    vendor_id INT PRIMARY KEY,
-    name VARCHAR(100),
-    category VARCHAR(50),
-    country VARCHAR(50)
+ vendor_id INT PRIMARY KEY,
+ name VARCHAR(100),
+ category VARCHAR(50),
+ country VARCHAR(50)
 );
 
 CREATE TABLE orders (
-    order_id INT PRIMARY KEY,
-    vendor_id INT,
-    product_id INT,
-    order_date DATE,
-    quantity INT,
-    expected_delivery DATE,
-    FOREIGN KEY (vendor_id) REFERENCES vendors(vendor_id)
+ order_id INT PRIMARY KEY,
+ vendor_id INT,
+ product_id INT,
+ order_date DATE,
+ quantity INT,
+ expected_delivery DATE,
+ FOREIGN KEY (vendor_id) REFERENCES vendors(vendor_id)
 );
-
----
 
 CREATE TABLE deliveries (
-    delivery_id INT PRIMARY KEY,
-    order_id INT,
-    delivery_date DATE,
-    quality_score INT CHECK (quality_score BETWEEN 1 AND 10),
-    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+ delivery_id INT PRIMARY KEY,
+ order_id INT,
+ delivery_date DATE,
+ quality_score INT CHECK (quality_score BETWEEN 1 AND 10),
+ FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
-
----
 
 CREATE TABLE returns (
-    return_id INT PRIMARY KEY,
-    order_id INT,
-    return_reason TEXT,
-    return_date DATE,
-    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+ return_id INT PRIMARY KEY,
+ order_id INT,
+ return_reason TEXT,
+ return_date DATE,
+ FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
 
----
 
 
 ## 💾 Import CSVs into MySQL
