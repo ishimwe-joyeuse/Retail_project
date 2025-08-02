@@ -73,7 +73,7 @@ CREATE TABLE returns (
 ```
 <img width="1342" height="669" alt="tables" src="https://github.com/user-attachments/assets/f1d00f7c-2bd5-40f9-9008-d22a53f0a42e" />
 
-```
+
 
 
 
@@ -91,7 +91,7 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-```
+
 
 <img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/0ccf8809-67e7-420e-a055-e15a4da375fa" />
 
