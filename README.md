@@ -12,11 +12,6 @@ This project aims to evaluate vendor performance based on key procurement metric
 
 <img width="1246" height="806" alt="image" src="https://github.com/user-attachments/assets/8f391451-ece3-485b-bd47-6a3707c2541f" />
 
-
-
-
----
-
 ## 🧰 Tools & Technologies
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
 - **MySQL** (Data storage/XAMPP)
