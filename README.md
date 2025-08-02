@@ -56,6 +56,7 @@ CREATE TABLE orders (
     expected_delivery DATE,
     FOREIGN KEY (vendor_id) REFERENCES vendors(vendor_id)
 );
+
  ```
 CREATE TABLE deliveries (
     delivery_id INT PRIMARY KEY,
@@ -64,6 +65,7 @@ CREATE TABLE deliveries (
     quality_score INT CHECK (quality_score BETWEEN 1 AND 10),
     FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
+
  ```
 CREATE TABLE returns (
     return_id INT PRIMARY KEY,
@@ -72,6 +74,7 @@ CREATE TABLE returns (
     return_date DATE,
     FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
+
 ```
 
 ## 💾 Import CSVs into MySQL
