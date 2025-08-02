@@ -70,9 +70,9 @@ CREATE TABLE returns (
  FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
 
----
+```
 
- 💾 Import CSVs into MySQL
+2. 💾 Import CSVs into MySQL
 
 **Step 1: Open phpMyAdmin or MySQL CLI**  
 **Step 2: Run the SQL table creation scripts above**  
@@ -86,10 +86,11 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
+<img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/0ccf8809-67e7-420e-a055-e15a4da375fa" />
+```
 
 
-
- 📊 Running the Analysis (Python)
+3. 📊 Running the Analysis (Python)
 
 1. Open `Vendors_analysis.ipynb` in **VSCode (Jupyter Notebook view)**
 2. Ensure MySQL is running on port 3307
@@ -102,7 +103,7 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
    -  Exploratory Data Analysis (EDA) 
    - Perform clustering
    - Export cleaned files for Power BI
-
+<img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/0ccf8809-67e7-420e-a055-e15a4da375fa" />
      
 ---
 
