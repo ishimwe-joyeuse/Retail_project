@@ -30,7 +30,8 @@ The project aims to identify and address inefficiencies in vendor performance us
 
 ## 🗃️ Database Schema & SQL Tables  
 
-### ✅ Database Creation in XAMPP  
+### ✅ Database Creation in XAMPP 
+
 ![Database Screenshot]<img width="1360" height="669" alt="database" src="https://github.com/user-attachments/assets/11a0e6ad-69ae-4a4c-b71f-66d68a1dfd3b" />
 
 📃 Database Schema
@@ -77,7 +78,7 @@ CREATE TABLE returns (
 **Step 2: Run the SQL table creation scripts above**  
 **Step 3: Import CSVs into corresponding tables using phpMyAdmin OR with a query like:**
 
-```sql
+
 LOAD DATA INFILE '/path/to/vendors.csv'
 INTO TABLE vendors
 FIELDS TERMINATED BY ','
@@ -85,9 +86,8 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-<img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/0ccf8809-67e7-420e-a055-e15a4da375fa" />
 
----
+
 
  📊 Running the Analysis (Python)
 
@@ -105,6 +105,9 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
 
      
 ---
+
+<img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/0ccf8809-67e7-420e-a055-e15a4da375fa" />
+
 
 ## 📈 Power BI Dashboard
 
