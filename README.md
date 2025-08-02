@@ -74,7 +74,7 @@ CREATE TABLE returns (
 <img width="1342" height="669" alt="tables" src="https://github.com/user-attachments/assets/f1d00f7c-2bd5-40f9-9008-d22a53f0a42e" />
 
 ```
----
+
 
 2. 💾 Import CSVs into MySQL
 
@@ -109,7 +109,7 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
 
 ```
 
----
+
 4. Run all notebook cells to:
    - Load and clean data
    -  Exploratory Data Analysis (EDA) 
@@ -118,7 +118,7 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
 
 ```
 
----
+
 
 ## 📈 Power BI Dashboard
 
