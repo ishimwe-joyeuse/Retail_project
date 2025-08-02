@@ -89,16 +89,17 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-```
+
 <img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/0ccf8809-67e7-420e-a055-e15a4da375fa" />
 
-
+```
 
 3. 📊 Running the Analysis (Python)
 
 1. Open `Vendors_analysis.ipynb` in **VSCode (Jupyter Notebook view)**
 2. Ensure MySQL is running on port 3307
 3. Install required libraries:
+
 ```bash
 pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
 
@@ -108,7 +109,7 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
    - Perform clustering
    - Export cleaned files for Power BI
 
----
+```
 
 
 
