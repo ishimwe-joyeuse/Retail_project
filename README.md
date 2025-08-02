@@ -4,7 +4,9 @@
 ## 📌 Project Overview
 This project aims to evaluate vendor performance based on key procurement metrics such as delivery quality, order quantity, and return rates etc. A clustering model is used to categorize vendors and the final results are visualized in Power BI.
 
-      PROBLEM STATEMENT: The project aims to identify and address inefficiencies in vendor performance using data analysis to support better decision-making
+      PROBLEM STATEMENT
+      The project aims to identify and address inefficiencies in vendor performance using data analysis to support better decision-making
+
 
    SIMPLE STRUCTURE OF WHOLE PROJECT
 
@@ -92,11 +94,11 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
+IMPORT CSVs INTO TABLES:
+
+
 <img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/e12d3a18-785a-488c-816a-65f2c51a86e8" />
 
-```
-
----
 
 ## 📊 Running the Analysis (Python)
 
