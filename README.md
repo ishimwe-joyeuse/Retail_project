@@ -83,7 +83,7 @@ Step 1: Open phpMyAdmin or MySQL CLI
 Step 2: Run the SQL table creation scripts above  
 Step 3: Import CSVs into corresponding tables using phpMyAdmin OR with a query like:
 
-
+```
 LOAD DATA INFILE '/path/to/vendors.csv'
 INTO TABLE vendors
 FIELDS TERMINATED BY ','
