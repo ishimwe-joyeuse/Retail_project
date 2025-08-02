@@ -1,0 +1,11 @@
+return_id,order_id,return_date,reason
+201,105,2023-01-25,Damaged on arrival
+202,107,2023-01-28,Wrong item
+203,111,2023-02-02,Late delivery
+204,102,2023-01-22,Not functioning properly
+205,113,2023-02-04,Customer changed mind
+206,104,2023-01-24,Poor quality
+207,103,2023-01-25,Incomplete item
+208,112,2023-02-03,Packaging damaged
+209,110,2023-02-01,Incorrect product
+210,106,2023-01-26,Defective unit
