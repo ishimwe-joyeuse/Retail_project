@@ -35,17 +35,12 @@ The project aims to identify and address inefficiencies in vendor performance us
 
 
 ### 📋 Table Definitions  
-
-#### 1. `vendors` Table  
-```sql
 CREATE TABLE vendors (
     vendor_id INT PRIMARY KEY,
     name VARCHAR(100),
     category VARCHAR(50),
     country VARCHAR(50)
 );
-
-```
 
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
@@ -57,7 +52,6 @@ CREATE TABLE orders (
     FOREIGN KEY (vendor_id) REFERENCES vendors(vendor_id)
 );
 
- ```
 CREATE TABLE deliveries (
     delivery_id INT PRIMARY KEY,
     order_id INT,
@@ -66,7 +60,6 @@ CREATE TABLE deliveries (
     FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
 
- ```
 CREATE TABLE returns (
     return_id INT PRIMARY KEY,
     order_id INT,
@@ -75,7 +68,6 @@ CREATE TABLE returns (
     FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
 
-```
 
 ## 💾 Import CSVs into MySQL
 
