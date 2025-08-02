@@ -93,7 +93,7 @@ IGNORE 1 ROWS;
 
 <img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/0ccf8809-67e7-420e-a055-e15a4da375fa" />
 
-```
+---
 
 3. 📊 Running the Analysis (Python)
 
@@ -105,7 +105,6 @@ IGNORE 1 ROWS;
 pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
 
 ---
-
 4. Run all notebook cells to:
    - Load and clean data
    -  Exploratory Data Analysis (EDA) 
