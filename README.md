@@ -33,8 +33,8 @@ The project aims to identify and address inefficiencies in vendor performance us
 ### ✅ Database Creation in XAMPP  
 ![Database Screenshot]<img width="1360" height="669" alt="database" src="https://github.com/user-attachments/assets/11a0e6ad-69ae-4a4c-b71f-66d68a1dfd3b" />
 
+📃 Database Schema
 
-### 📋 Table Definitions  
 CREATE TABLE vendors (
     vendor_id INT PRIMARY KEY,
     name VARCHAR(100),
@@ -52,6 +52,8 @@ CREATE TABLE orders (
     FOREIGN KEY (vendor_id) REFERENCES vendors(vendor_id)
 );
 
+---
+
 CREATE TABLE deliveries (
     delivery_id INT PRIMARY KEY,
     order_id INT,
@@ -60,6 +62,8 @@ CREATE TABLE deliveries (
     FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
 
+---
+
 CREATE TABLE returns (
     return_id INT PRIMARY KEY,
     order_id INT,
@@ -67,6 +71,8 @@ CREATE TABLE returns (
     return_date DATE,
     FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
+
+---
 
 
 ## 💾 Import CSVs into MySQL
