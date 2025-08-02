@@ -100,9 +100,13 @@ IGNORE 1 ROWS;
 1. Open `Vendors_analysis.ipynb` in **VSCode (Jupyter Notebook view)**
 2. Ensure MySQL is running on port 3307
 3. Install required libraries:
+   
+---   
 
 ```bash
 pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
+
+```
 
 ---
 4. Run all notebook cells to:
