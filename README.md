@@ -14,7 +14,8 @@ The project aims to identify and address inefficiencies in vendor performance us
 ---
 
 ## 🔄 Project Workflow  
-![Project Workflow](https://user-images.githubusercontent.com/your_workflow_image_link_here.png)
+![Project Workflow]<img width="1246" height="806" alt="image" src="https://github.com/user-attachments/assets/3aa546e4-cb8a-4bb8-9f46-f3eb2c0065e5" />
+
 
 ---
 
@@ -30,7 +31,8 @@ The project aims to identify and address inefficiencies in vendor performance us
 ## 🗃️ Database Schema & SQL Tables  
 
 ### ✅ Database Creation in XAMPP  
-![Database Screenshot](https://user-images.githubusercontent.com/your_database_image_link_here.png)
+![Database Screenshot]<img width="1360" height="669" alt="database" src="https://github.com/user-attachments/assets/11a0e6ad-69ae-4a4c-b71f-66d68a1dfd3b" />
+
 
 ### 📋 Table Definitions  
 
@@ -45,8 +47,10 @@ CREATE TABLE vendors (
 
 ```
 
-### 2. `orders` Table
-```
+2. orders Table
+sql
+Copy
+Edit
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
     vendor_id INT,
@@ -56,10 +60,10 @@ CREATE TABLE orders (
     expected_delivery DATE,
     FOREIGN KEY (vendor_id) REFERENCES vendors(vendor_id)
 );
-```
-
-### 3. `deliveries` Table
-```
+3. deliveries Table
+sql
+Copy
+Edit
 CREATE TABLE deliveries (
     delivery_id INT PRIMARY KEY,
     order_id INT,
@@ -67,16 +71,17 @@ CREATE TABLE deliveries (
     quality_score INT CHECK (quality_score BETWEEN 1 AND 10),
     FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
-```
-
-### 4. `returns` Table
-```
+4. returns Table
+sql
+Copy
+Edit
 CREATE TABLE returns (
     return_id INT PRIMARY KEY,
     order_id INT,
     return_reason TEXT,
     return_date DATE,
-    FOREIGN KEY (order_id) REFERENCES orders(order_id);
+    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+);
 
 
 ## 💾 Import CSVs into MySQL
@@ -92,9 +97,9 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
+<img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/0ccf8809-67e7-420e-a055-e15a4da375fa" />
 
-IMPORT CSVs INTO TABLES:
-<img width="1341" height="681" alt="import" src="https://github.com/user-attachments/assets/32791b60-c92d-4fd0-9d1f-1b8c90e5998a" />
+
 
 ## 📊 Running the Analysis (Python)
 
@@ -106,6 +111,7 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
 ```
 4. Run all notebook cells to:
    - Load and clean data
+   -  Exploratory Data Analysis (EDA) 
    - Perform clustering
    - Export cleaned files for Power BI
 
