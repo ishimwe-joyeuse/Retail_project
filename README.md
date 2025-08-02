@@ -146,9 +146,12 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
 - [x] README.md file
 - [x] Jupyter Notebook (`Vendors_analysis.ipynb`)
 - [x] Power BI file (`clustered_dashboard.pbix`)
+      
 
 
 ---
 
 © 2025 Joyeuse Ishimwe | INSY 8413 Capstone
+
+
 
