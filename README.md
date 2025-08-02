@@ -74,13 +74,14 @@ CREATE TABLE returns (
 <img width="1342" height="669" alt="tables" src="https://github.com/user-attachments/assets/f1d00f7c-2bd5-40f9-9008-d22a53f0a42e" />
 
 ```
+---
 
 
 2. 💾 Import CSVs into MySQL
 
-**Step 1: Open phpMyAdmin or MySQL CLI**  
-**Step 2: Run the SQL table creation scripts above**  
-**Step 3: Import CSVs into corresponding tables using phpMyAdmin OR with a query like:**
+Step 1: Open phpMyAdmin or MySQL CLI  
+Step 2: Run the SQL table creation scripts above  
+Step 3: Import CSVs into corresponding tables using phpMyAdmin OR with a query like:
 
 
 LOAD DATA INFILE '/path/to/vendors.csv'
@@ -118,7 +119,7 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
 
 ```
 
-
+---
 
 ## 📈 Power BI Dashboard
 
