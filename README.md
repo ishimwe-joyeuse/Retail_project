@@ -139,6 +139,12 @@ pip install mysql-connector-python pandas matplotlib seaborn scikit-learn
     3.2<img width="1349" height="713" alt="screenshoot3 1" src="https://github.com/user-attachments/assets/43f074d2-45eb-4feb-b29e-ba1b4f049bfd" />
     3.3<img width="1343" height="696" alt="screenshoot3 2" src="https://github.com/user-attachments/assets/db91f13b-9a20-4838-89eb-9c0fbc0131ac" />
 
+  5. KPS Dax Formular
+    1. <img width="1363" height="670" alt="screenshoot4" src="https://github.com/user-attachments/assets/b707f634-b72c-43d3-abcc-75c616d6d9f5" />
+    2.<img width="1325" height="658" alt="screenshoot5" src="https://github.com/user-attachments/assets/7a2ca342-02d2-41d7-9a34-01aef7c9adb8" />
+
+  
+
 
 ## ✅ Final Submission Checklist
 
